@@ -1,4 +1,5 @@
 import sys  #used to handle exceptions i.e check on runtime environment
+from src.logger import logging  #logger is imported so that exceptionn can be recorded in log file
 
 def error_detail_message(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
